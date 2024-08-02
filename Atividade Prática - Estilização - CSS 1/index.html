@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+</head>
+
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
+</style>
+<body>
+  <table>
+    <colgroup>
+      <col span="2" style="background-color: greenyellow;" />
+    </colgroup>
+
+    <thead>
+      <tr>
+        <th>Curso</th>
+        <th>Carga horário</th>
+      
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td colspan="2" rowspan="2">Front-end I</td>
+        <td>60h</td>
+        <td>60h</td> 
+        <td>60h</td> 
+        <!-- <td>Carla</td> -->
+      </tr>
+      <tr>
+        <td style="width: 300px;">Front-end II</td>
+        <td>80h</td>
+        <td>Carla</td>
+        <td>Carla</td>
+        <td>Carla</td>
+      </tr>
+
+      <tr>
+        <td style="width: 300px;">Front-end II</td>
+        <td>80h</td>
+        <td>Carla</td>
+        <td>Carla</td>
+        <td>Carla</td>
+      </tr>
+
+      <tr>
+        <td style="width: 300px;">Front-end II</td>
+        <td>80h</td>
+        <td>Carla</td>
+        <td>Carla</td>
+        <td>Carla</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td>$180</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
