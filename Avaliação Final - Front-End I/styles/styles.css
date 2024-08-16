@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: #3c3c3c;
+    width: 20%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav aside {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.nav img {
+    align-items: center;
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border: 1px solid;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu ul li {
+    margin-bottom: 15px;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px;
+    color: #fefefe;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+.conteiner {
+    background-color: #ffffff;
+    width: 80%;
+    height: 100vh;
+    float: left;
+    padding: 20px 40px;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+.cabecalho {
+    margin-top: 140px;
+    padding: 10px;
+    position: relative;
+}
+
+.nome {
+    font-size: 50px;
+    color: #070707;
+}
+
+.info {
+    position: relative;
+    margin-top: 10px;
+}
+
+.cor-nome {
+    color: #3c3c3c;
+}
+
+endereco {
+    margin-right: 20px;
+    font-style: italic;
+    color: #000000;
+    font-size: 20px;
+}
+
+.descricao {
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.icones {
+    margin-top: 20px;
+    text-align: left;
+    display: block;
+}
+
+.container-section {
+    margin-top: 140px;
+    padding: 10px;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-article {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.conhecimento {
+    top: 30px;
+    padding-left: 20px;
+    list-style-type: upper-alpha;
+    font-size: 17px;
+    color: #333;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.conhecimento li {
+    margin-bottom: 15px;
+}
+
+.objetivos-section {
+    margin-top: 140px;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.objetivos-article {
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+    box-sizing: border-box;
+}
+
+.objetivos-article:last-child {
+    margin-right: 0;
+}
+
+objetivos {
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    color: #3c3c3c;
+}
+.profissonais,
+.pessoais {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.6;
+    font-size: 20px;
+    color: #3c3c3c;
+}
