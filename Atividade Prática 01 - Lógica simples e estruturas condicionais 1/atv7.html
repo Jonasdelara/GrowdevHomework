@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade7</title>
+</head>
+
+<body>
+  <script>
+
+    var totalEleitores = 23000;
+    var votosBrancos = 1500;
+    var votosNulos = 5000;
+    var votosValidos = 16500;
+
+    var Brancos = (votosBrancos / totalEleitores) * 100;
+    var Nulos = (votosNulos / totalEleitores) * 100;
+    var Validos = (votosValidos / totalEleitores) * 100;
+
+    document.write(" A quantidade de votos válidos foi de : " + Validos + "%<br>");
+    document.write(" A quantidade de votos nulos foi de : " + Nulos + "%<br>");
+    document.write(" A quantidade de votos em branco foi de : " + Brancos + "%<br>");
+  </script>
+</body>
+
+</html>
